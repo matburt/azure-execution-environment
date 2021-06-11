@@ -1,0 +1,9 @@
+---
+version: 1
+
+#ansible_config: "ansible.cfg"
+build_arg_defaults:
+  ANSIBLE_RUNNER_IMAGE: "quay.io/ansible/ansible-runner:devel"
+dependencies:
+  galaxy: requirements.yml
+  python: requirements.txt
